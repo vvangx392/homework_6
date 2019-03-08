@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Gif Tastic</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    
+
+</head>
+
+<body>
+
+<div class="container">
+<div id="sportsbuttons">
+
+<button class="btn btn-info sports" data-name="tennis" style="margin: 5px;">tennis</button>
+<button class="btn btn-info sports" data-name="football" style="margin: 5px;">football</button>
+<button class="btn btn-info sports" data-name="basketball" style="margin: 5px;">basketball</button>
+<button class="btn btn-info sports" data-name="baseball" style="margin: 5px;">baseball</button>
+<button class="btn btn-info sports" data-name="curling" style="margin: 5px;">curling</button>
+<button class="btn btn-info sports" data-name="hockey" style="margin: 5px;">hockey</button>
+<button class="btn btn-info sports" data-name="golf" style="margin: 5px;">golf</button>
+<button class="btn btn-info sports" data-name="soccer" style="margin: 5px;">soccer</button>
+<button class="btn btn-info sports" data-name="track" style="margin: 5px;">track</button>
+<button class="btn btn-info sports" data-name="swimming" style="margin: 5px;">swimming</button>
+<button class="btn btn-info sports" data-name="biking" style="margin: 5px;">biking</button>
+<button class="btn btn-info sports" data-name="boxing" style="margin: 5px;">boxing</button>
+<button class="btn btn-info sports" data-name="tabletennis" style="margin: 5px;">tabletennis</button>
+
+</div>
+</div>
+<!-- Where the gifs will show -->
+<div id="gifs" style="float:left"></div>
+<!-- Write in section -->
+<div style="float:right; margin-top:90px;">
+ <h4>Add a Sports</h4>
+    <form id="gif-form">
+        <label for="gif-input"></label>
+        <input type="text" value="" id="gif-input"><br><br>
+        <!--Creates the submit button-->
+        <input type="submit" name="Button" class="btn btn-success" id="theButton" style="margin-left:8px">
+    </form>
+</div>
+<script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
+  <!-- Local javascript operations file -->
+  <script type="text/javascript" src="apps.js"></script>
+</body>
+</html>
